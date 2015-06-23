@@ -1,0 +1,74 @@
+#header {
+	 width:100%;
+	 height:50px;
+	 background:#d3d3d3;
+	 border: 1px solid black;
+	 padding:3px;
+	 top:0;
+	 left:0;
+	 position:fixed;
+}
+
+.nav {
+	padding-top:10px;
+	padding-left:80px;
+	display:inline-block;
+	font-family:Candara, Arial, Sans-Serif;
+	font-size: 1.5em;
+}
+
+a {
+	text-decoration:none;
+	color:black;
+}
+
+a:hover {
+	color:red;
+}
+
+#body {
+	text-align: center;
+	background-color:white;
+	position:relative;
+	font-family: Candara, Arial, Sans-Serif;
+	margin-top: 75px;
+	font-size: 80px;
+}
+
+.zaption-thumbnail {
+	display:block;
+	position:relative;
+	margin:auto;
+	margin-top: 100px;
+}
+
+.HomeButton {
+	display:table;
+	margin: auto;
+	padding-bottom: 10px;
+}
+
+.HomeButton img {
+	padding-left: 100px;
+}
+
+table {
+	font-size:40px;
+	font-family: Candara, Arial, Sans-Serif;
+	margin-top:100px;
+	border:1px solid black;
+	width: 100%;
+	border-collapse: collapse;
+	table-layout: fixed;
+	word-wrap:break-word;
+	text-align: center;
+
+}
+
+th, td {
+	padding:15px;
+}
+
+table td{
+border:1px solid black;
+}
