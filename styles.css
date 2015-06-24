@@ -45,19 +45,33 @@ a:hover {
 .HomeButton {
 	display:table;
 	margin: auto;
-	padding-bottom: 10px;
 }
 
 .HomeButton img {
 	padding-left: 100px;
 }
 
+.HomeButton img {
+	padding-top:50px;
+	padding-left: 100px;
+}
+
+div a {
+
+	text-align:center;
+	margin:auto;
+}
+
+#twitter-timeline {
+	display:block;
+	text-align: center;
+}
+
 table {
 	font-size:40px;
 	font-family: Candara, Arial, Sans-Serif;
-	margin-top:100px;
+	margin-top:30px;
 	border:1px solid black;
-	width: 100%;
 	border-collapse: collapse;
 	table-layout: fixed;
 	word-wrap:break-word;
@@ -70,5 +84,19 @@ th, td {
 }
 
 table td{
-border:1px solid black;
+	border:1px solid black;
+	width: 350px;
+
 }
+
+table tr:nth-child(even) {
+    background-color: #eee;
+}
+table tr:nth-child(odd) {
+    background-color: #fff;
+}
+table th {
+    color: white;
+    background-color: black;
+}
+
