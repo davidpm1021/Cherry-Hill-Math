@@ -1,0 +1,48 @@
+doctype HTML
+<html lang = "en">
+html
+	head
+		meta(charset ="utf-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+		meta(name="viewport", content="width=device-width, initial-scale=1")
+		link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css")
+		title Cherry Hill Math
+		link(rel="stylesheet", type="text/css", href="css/styles.css")
+
+	body
+		include ./jade/navbar.jade
+		.container
+			.row.headerimage
+				.col-sm-12
+					h1 
+						span Cherry Hill Math
+					p The difference between a successful person and others is not a lack of strength, not a lack of knowledge, but rather a lack in will. ~ Vince Lombardi
+			.row.content
+				.col-sm-6
+					.twitter
+						a.twitter-timeline(href="https://twitter.com/MrMartinTweets", data-widget-id="559498345149124609") Tweets by @MrMartinTweets
+				.col-sm-6.links
+					h2 Contact Mr. Martin 
+					p damartin@chclc.org
+
+					br
+
+					h2 Useful Links
+					ul
+						li 
+							a(href="http://www.khanacademy.org", target="_blank") Khan Academy
+						li 
+							a(href="https://www.youtube.com/channel/UCnYspd5-4VObW5dPIGQ8i1A", target="_blank") Cherry Hill Math Youtube Page
+						li 
+							a(href="http://www.purplemath.com", target="_blank") Purple Math
+						li 
+							a(href="http://www.wolframalpha.com", target="_blank") Wolfram Alpha
+						li 
+							a(href="http://www.desmos.com/calculator", target="_blank") Desmos Graphing Calculator
+						li 
+							a(href="https://play.google.com/store/apps/details?id=com.Revsoft.Wabbitemu&hl=en", target="_blank") Wabbitemu Graphing Calculator App for Android
+
+
+		script(src ="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
+		script(src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js")
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
